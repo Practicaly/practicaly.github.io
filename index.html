@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap stuff ;) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <title>Blog | Practica.ly</title>
+
+</head>
+
+<body>
+    <!-- The Big ass box around everithing -->
+    <div class="container">
+        <!-- The retarded  navigation bar at the top -->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <a href="index.html" class="navbar-brand">
+                <strong>Practica.ly</strong> blog
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Hi, I am the carousel -->
+        <div class="carousel slide" data-ride="carousel" id="posts" style="margin-top: 20px; margin-bottom: 20px;">
+            <ul class="carousel-indicators">
+                <li data-target="#posts" data-slide-to="0" class="active"></li>
+                <li data-target="#posts" data-slide-to="1"></li>
+                <li data-target="#posts" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/images/carousel-item1.jpg" width="1100" height="500" class="mx-auto" alt="Books" />
+                    <div class="carousel-caption">
+                        <h3>Books</h3>
+                        <p>Books books and more books</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="static/images/carousel-item1.jpg" width="1100" height="500" class="mx-auto" alt="Books" />
+                    <div class="carousel-caption">
+                        <h3>Books</h3>
+                        <p>Books books and more books</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="static/images/carousel-item1.jpg" width="1100" height="500" class="mx-auto" alt="Books" />
+                    <div class="carousel-caption">
+                        <h3>Books</h3>
+                        <p>Books books and more books</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#posts" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#posts" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <!-- we are the card deck and stuff (link to blog posts) -->
+        <div class="card-deck" style="margin-top: 72px; margin-bottom: 72px;">
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top rounded-circle mx-auto" src="https://avatars.devrant.com/v-20_c-1_b-2_g-m_9-1_1-7_16-6_3-13_8-1_7-1_5-1_12-7_6-10_10-9_2-43_22-6_18-2_19-2_4-2.png"
+                    style="width:70%;" />
+                <div class="card-body">
+                    <h1 class="class-title">Mission</h1>
+                    <p class="card-text">the quick brown fox jumps ober the lazy dog</p>
+                </div>
+            </div>
+
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top rounded-circle mx-auto" src="https://avatars.devrant.com/v-20_c-1_b-2_g-m_9-1_1-7_16-6_3-13_8-1_7-1_5-1_12-7_6-10_10-9_2-43_22-6_18-2_19-2_4-2.png"
+                    style="width:70%;" />
+                <div class="card-body">
+                    <h1 class="class-title">Mission</h1>
+                    <p class="card-text">the quick brown fox jumps ober the lazy dog</p>
+                </div>
+            </div>
+
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top rounded-circle mx-auto" src="https://avatars.devrant.com/v-20_c-1_b-2_g-m_9-1_1-7_16-6_3-13_8-1_7-1_5-1_12-7_6-10_10-9_2-43_22-6_18-2_19-2_4-2.png"
+                    style="width:70%;" />
+                <div class="card-body">
+                    <h1 class="class-title">Mission</h1>
+                    <p class="card-text">the quick brown fox jumps ober the lazy dog</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- I'm the footer -->
+        <div class="footer jumbotron row">
+            <div class="col-4">
+                <ul>
+                    <li>About</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4">
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
