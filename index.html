@@ -26,13 +26,15 @@
 </head>
 
 <body>
-    <!-- The Big ass box around everithing -->
-    <div class="container">
-        <!-- The retarded  navigation bar at the top -->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <a href="index.html" class="navbar-brand">
-                <strong>Practica.ly</strong> blog
-            </a>
+    <!-- The retarded  navigation bar at the top -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <strong>Practica.ly</strong> blog
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#" class="nav-link">About</a>
@@ -41,9 +43,13 @@
                     <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+    <!-- The Big ass box around everithing -->
+    <div class="container">
+
         <!-- Hi, I am the carousel -->
-        <div class="carousel slide" data-ride="carousel" id="posts" style="margin-top: 20px; margin-bottom: 20px;">
+        <div class="carousel slide" data-ride="carousel" id="posts" style="margin-top: 80px; margin-bottom: 20px;">
             <ul class="carousel-indicators">
                 <li data-target="#posts" data-slide-to="0" class="active"></li>
                 <li data-target="#posts" data-slide-to="1"></li>
@@ -81,40 +87,7 @@
         </div>
 
         <!-- we are the card deck and stuff (link to blog posts) -->
-        <div class="card-deck" style="margin-top: 72px; margin-bottom: 72px;">
-            <div class="card" style="width:100%; padding: 10px;">
-                <img class="card-img-top round mx-auto" src="static/images/kid.jpg" style="width:100%;" />
-                <div class="card-body">
-                    <h4 class="class-title">Did you know?</h4>
-                    <p class="card-text">some facts I think!</p>
-                </div>
-            </div>
-
-            <div class="card" style="width:100%; padding: 10px;">
-                <img class="card-img-top round mx-auto" src="static/images/library.jpg" style="width:100%;" />
-                <div class="card-body">
-                    <h4 class="class-title">Resources</h4>
-                    <p class="card-text">A journey through everithing that there is!</p>
-                </div>
-            </div>
-
-            <div class="card" style="width:100%; padding: 10px;">
-                <img class="card-img-top round mx-auto" src="static/images/mac.jpg" style="width:100%;" />
-                <div class="card-body">
-                    <h4 class="class-title">Interactions</h4>
-                    <p class="card-text">Learning though interactions, how good is it?</p>
-                </div>
-            </div>
-
-            <div class="card" style="width:100%; padding: 10px;">
-                <img class="card-img-top round mx-auto" src="static/images/collab.jpg" style="width:100%;" />
-                <div class="card-body">
-                    <h4 class="class-title">Communication</h4>
-                    <p class="card-text">Effects of communications? are there any?</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-deck" style="margin-top: 72px; margin-bottom: 72px;">
+        <div class="card-deck" style="margin-top:10px; margin-bottom:10px;">
             <div class="card" style="width:100%; padding: 10px;">
                 <img class="card-img-top round mx-auto" src="static/images/kid.jpg" style="width:100%;" />
                 <div class="card-body">
@@ -148,15 +121,46 @@
             </div>
         </div>
 
+        <div class="card-deck" style="margin-top:10px; margin-bottom:10px;">
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top round mx-auto" src="static/images/kid.jpg" style="width:100%;" />
+                <div class="card-body">
+                    <h4 class="class-title">Did you know?</h4>
+                    <p class="card-text">some facts I think!</p>
+                </div>
+            </div>
 
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top round mx-auto" src="static/images/library.jpg" style="width:100%;" />
+                <div class="card-body">
+                    <h4 class="class-title">Resources</h4>
+                    <p class="card-text">A journey through everithing that there is!</p>
+                </div>
+            </div>
 
-        <!-- I'm the footer -->
-        <div class="footer jumbotron row">
-            <div class="col-12 text-center ">
-                <h1> &lt;&excl;&minus;&minus; Placeholder &minus;&minus;&gt;</h1>
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top round mx-auto" src="static/images/mac.jpg" style="width:100%;" />
+                <div class="card-body">
+                    <h4 class="class-title">Interactions</h4>
+                    <p class="card-text">Learning though interactions, how good is it?</p>
+                </div>
+            </div>
+
+            <div class="card" style="width:100%; padding: 10px;">
+                <img class="card-img-top round mx-auto" src="static/images/collab.jpg" style="width:100%;" />
+                <div class="card-body">
+                    <h4 class="class-title">Communication</h4>
+                    <p class="card-text">Effects of communications? are there any?</p>
+                </div>
             </div>
         </div>
     </div>
+    <!-- I'm the footer -->
+
+
+    <nav class="navbar">
+
+    </nav>
 
 </body>
 
